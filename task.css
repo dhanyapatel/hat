@@ -1,0 +1,184 @@
+
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+/*header*/
+    .navbar{
+    height: 55px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.heading p {
+    font-size: 2rem;
+    color: black;
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    
+}
+
+#one{
+    color: rgb(46, 214, 46);
+}
+.search{
+    display: inline;
+    color: grey;
+}
+/* .sign{
+    width: 60px;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid rgb(46, 214, 46) ;
+    color:rgb(46, 214, 46) ;
+    text-align: center;
+} */
+button{
+    background-color: white;
+    border: 3px solid rgb(46, 214, 46) ;
+    color:rgb(46, 214, 46) ;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+    font-size: 0.9rem;
+}
+button:hover{
+    transform: scale(1.1,1.1);
+}
+.search-input{
+  border: none;
+  width: 600px;
+  height: 30px;
+}
+/* body*/
+.pic{
+    background-image: url("task.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    /* justify-content: left;
+    align-items: end; */
+}
+.sub-pic{
+    height: 200px;
+    width: 200px;
+    background-color:black;
+    border-radius: 50%;
+    border: 5px solid white;
+    /* margin-left: 100px;
+    margin-top: 1500px; */
+    position: relative;
+    top:220px;
+    left: 100px;
+    background-image: url("task2.jpeg");
+}
+.heading2{
+    
+    position: relative;
+    top:335px;
+    left: 160px;
+}
+.heading2{
+font-weight: 500;
+}
+.info{
+    display: flex;
+    width: 600px;
+    height: 15px;
+    justify-content: space-evenly;
+    position: relative;
+    top:395px;
+    right: 125px;
+    color: grey;
+}
+.info1{
+    display: flex;
+}
+.info1:hover{
+    transform: scale(1.1,1.1);
+}
+.info p{
+    position: relative;
+    left:10px;
+}
+/*foot*/
+.foot{
+    background-color: rgb(249, 245, 245);
+    height: 350px;
+    position: relative;
+    top:150px;
+    display: flex;
+}
+.tel a {
+    text-decoration: none;
+    color: grey;
+}
+.tel{
+    color: grey;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    
+}
+
+.mail{
+    display: flex;
+   justify-content: space-between;
+   position: relative;
+   top: 20px;
+}
+.mail p{
+    color: rgb(4, 244, 236);
+    font-weight: 500;
+}
+.chat{
+  height: 50px;
+  width: 200px;
+  background-color:  rgb(4, 244, 236) ;
+  border-radius: 30px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 100px;
+  top: 180px;
+}
+.chat:hover{
+    transform: scale(1.1,1.1);
+}
+/*  */
+
+.rating{
+    display: flex;
+    width: 150px;
+   height: 50px;
+   position: relative;
+   right: 270px;
+   top: 260px;
+}
+
+.rating h{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.star{
+    color: rgb(255, 208, 0);
+    justify-content: center;
+    align-items: center;
+    
+}
+.star p{
+    color: black;
+}
+.video{
+    position: relative;
+    right: 200px;
+     top: 20px;
+}
